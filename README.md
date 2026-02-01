@@ -24,8 +24,11 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=naidu-yaswanth-reddy&style=flat-square&color=444" />
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=naiduyaswanthreddy&show_icons=true&locale=en&layout=compact" alt="naiduyaswanthreddy" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=naiduyaswanthreddy&show_icons=true&locale=en" alt="naiduyaswanthreddy" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=naiduyaswanthreddy&" alt="naiduyaswanthreddy" /></p>
 </div>
 
 ---
