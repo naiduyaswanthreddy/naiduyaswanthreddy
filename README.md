@@ -1,53 +1,30 @@
 <!-- ===================================================== -->
-<!--                     HERO SECTION                      -->
+<!--                   GITHUB PROFILE README               -->
 <!-- ===================================================== -->
 
 <div align="center">
 
 <h1>Naidu Yaswanth Reddy</h1>
 
-<p>
-  <b>
-    <span id="typing-text"></span>
-  </b>
-</p>
-
-<script>
-  const roles = [
-    "Building real systems, end to end.",
-    "Student engineer focused on execution.",
-    "Learning by shipping, improving by iteration."
-  ];
-
-  let roleIndex = 0;
-  let charIndex = 0;
-  let deleting = false;
-  const speed = 80;
-
-  function typeEffect() {
-    const el = document.getElementById("typing-text");
-    if (!el) return;
-
-    if (!deleting && charIndex <= roles[roleIndex].length) {
-      el.innerText = roles[roleIndex].substring(0, charIndex++);
-    } else if (deleting && charIndex >= 0) {
-      el.innerText = roles[roleIndex].substring(0, charIndex--);
-    }
-
-    if (charIndex === roles[roleIndex].length) deleting = true;
-    if (charIndex === 0 && deleting) {
-      deleting = false;
-      roleIndex = (roleIndex + 1) % roles.length;
-    }
-
-    setTimeout(typeEffect, deleting ? speed / 2 : speed);
-  }
-  typeEffect();
-</script>
+<img 
+  src="https://readme-typing-svg.demolab.com?
+  font=Inter&
+  weight=500&
+  size=18&
+  duration=2500&
+  pause=800&
+  color=FFFFFF&
+  center=true&
+  vCenter=true&
+  width=520&
+  lines=Building+real+systems%2C+end+to+end.;
+  Full-stack+%26+backend-focused+engineer.;
+  Learning+by+shipping%2C+improving+by+iteration." 
+/>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=444" />
+<img src="https://komarev.com/ghpvc/?username=naidu-yaswanth-reddy&style=flat-square&color=444" />
 
 </div>
 
@@ -55,15 +32,13 @@
 
 ## About Me
 
-I’m a computer science student who prefers **building over talking**.  
-I learn by designing systems, shipping features, breaking them under real use, and fixing what matters.
+I’m a computer science student focused on **building production-grade systems**, not demos.  
+I learn by shipping, stress-testing under real usage, and iterating based on failure signals.
 
 I care about:
-- clear ownership  
-- pragmatic tradeoffs  
-- code that survives scale and failure  
-
-No fluff. Just output.
+- ownership from idea → deployment → maintenance  
+- clean abstractions and reliable systems  
+- measurable impact over buzzwords  
 
 ---
 
@@ -71,9 +46,16 @@ No fluff. Just output.
 
 <div align="left">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,sql" /><br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,fastapi" /><br/>
+<!-- Languages -->
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,javascript,sql" /><br/>
+
+<!-- Frontend & Backend -->
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi" /><br/>
+
+<!-- Databases -->
 <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,firebase" /><br/>
+
+<!-- Cloud & Tools -->
 <img src="https://skillicons.dev/icons?i=git,github,docker,aws,gcp,linux" />
 
 </div>
@@ -84,9 +66,21 @@ No fluff. Just output.
 
 <div align="left">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true" />
+<img height="160" 
+  src="https://github-readme-stats.vercel.app/api?
+  username=naidu-yaswanth-reddy&
+  show_icons=true&
+  theme=github_dark&
+  hide_border=true" 
+/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" />
+<img height="160" 
+  src="https://github-readme-stats.vercel.app/api/top-langs/?
+  username=naidu-yaswanth-reddy&
+  layout=compact&
+  theme=github_dark&
+  hide_border=true" 
+/>
 
 </div>
 
@@ -94,42 +88,43 @@ No fluff. Just output.
 
 ## Featured Projects
 
-### Project Name
-**Problem:** What real-world or technical pain point existed.  
-**Solution:** What you built and the key architectural or technical choices.  
-**Impact:** What shipped — performance gains, users served, reliability improved.
+### 🏫 Multi-Tenant Campus Placement Portal
+**Problem:** Fragmented placement workflows across colleges with poor visibility and manual coordination.  
+**Solution:** Built a full-stack, multi-tenant platform with role-based access for students, admins, and superadmins.  
+**Impact:** 99.8% uptime, automated notifications via 8 serverless functions, and 60% reduction in manual processing.
 
-> Tech: React, Node.js, Database  
-> Repo: https://github.com/YOUR_USERNAME/project-name
-
----
-
-### Project Name
-**Problem:** Manual, slow, or error-prone workflow.  
-**Solution:** Automated or scalable system with clear ownership.  
-**Impact:** Reduced latency, fewer failures, measurable efficiency.
-
-> Tech: Python, FastAPI, MongoDB  
-> Repo: https://github.com/YOUR_USERNAME/project-name
+> Tech: React, Firebase, Cloud Functions  
+> Repo: https://github.com/naidu-yaswanth-reddy/PROJECT_LINK
 
 ---
 
-### Project Name
-**Problem:** Needed reliability under concurrency or failure.  
-**Solution:** Designed retries, observability, and recovery paths.  
-**Impact:** Stable behavior under load and edge cases.
+### 🚚 Bottle Buddy – Water Delivery Management
+**Problem:** Inventory mismatches and delivery errors in high-volume water-can distribution.  
+**Solution:** Designed a secure SPA with strict per-tenant isolation using Supabase RLS and real-time sync.  
+**Impact:** Tracked 5,000+ bottles, reduced delivery errors by 55%, and improved processing time by 40%.
 
-> Tech: Python, Docker, Monitoring  
-> Repo: https://github.com/YOUR_USERNAME/project-name
+> Tech: React, Supabase, PostgreSQL, PWA  
+> Repo: https://github.com/naidu-yaswanth-reddy/PROJECT_LINK
+
+---
+
+### 🧠 AI-Powered Mental Health Companion
+**Problem:** Lack of accessible, real-time mental health support with contextual understanding.  
+**Solution:** Built backend APIs and an AI chatbot using NLP models and biometric inputs.  
+**Impact:** Achieved ~85% emotion-detection accuracy with multilingual support and reliable API performance.
+
+> Tech: FastAPI, MongoDB, LangChain, DistilBERT  
+> Repo: https://github.com/naidu-yaswanth-reddy/PROJECT_LINK
 
 ---
 
 ## Contact / Links
 
-- GitHub: https://github.com/YOUR_USERNAME  
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE  
-- Email: your.email@example.com  
+- GitHub: https://github.com/naidu-yaswanth-reddy  
+- LinkedIn: https://linkedin.com/in/naidu-yaswanth-reddy  
+- Email: yeswanthreddynaidu@gmail.com  
 
 ---
 
-<sub>Focused on building. Iterating relentlessly.</sub>
+<sub>Focused on building systems that work under real constraints.</sub>
+
