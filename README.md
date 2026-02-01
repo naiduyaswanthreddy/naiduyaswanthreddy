@@ -4,28 +4,16 @@
 
 <div align="center">
 
-<h1>Naidu Yaswanth Reddy</h1>
+<h1 style="margin-bottom: 4px;">Naidu Yaswanth Reddy</h1>
 
-<img 
-  src="https://readme-typing-svg.demolab.com?
-  font=Inter&
-  weight=500&
-  size=18&
-  duration=2500&
-  pause=800&
-  color=FFFFFF&
-  center=true&
-  vCenter=true&
-  width=520&
-  lines=Building+real+systems%2C+end+to+end.;
-  Full-stack+%26+backend-focused+engineer.;
-  Learning+by+shipping%2C+improving+by+iteration." 
-/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2600&pause=900&color=FFFFFF&center=true&vCenter=true&width=540&lines=Building+real+systems%2C+end+to+end.;Full-stack+and+backend-focused.;Learning+by+shipping%2C+improving+by+iteration." />
 
 <br/>
 
+<img src="https://komarev.com/ghpvc/?username=naidu-yaswanth-reddy&style=flat-square&color=444" />
 
 </div>
+
 
 ---
 
