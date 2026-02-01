@@ -78,7 +78,7 @@ I care about:
 **Impact:** Tracked 5,000+ bottles, reduced delivery errors by 55%, and improved processing time by 40%.
 
 > Tech: React, Supabase, PostgreSQL, PWA  
-> Repo: [https://github.com/naidu-yaswanth-reddy/PROJECT_LINK](https://github.com/naiduyaswanthreddy/Water-Plant)
+> Repo: [PROJECT_LINK](https://github.com/naiduyaswanthreddy/Water-Plant)
 
 ---
 
@@ -88,7 +88,7 @@ I care about:
 **Impact:** Achieved ~85% emotion-detection accuracy with multilingual support and reliable API performance.
 
 > Tech: FastAPI, MongoDB, LangChain, DistilBERT  
-> Repo: [https://github.com/naidu-yaswanth-reddy/PROJECT_LINK](https://github.com/naiduyaswanthreddy/Nira)
+> Repo: [PROJECT_LINK](https://github.com/naiduyaswanthreddy/Nira)
 
 ---
 
